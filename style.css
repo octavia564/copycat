@@ -52,7 +52,9 @@
 }
 
 .steam-logo-navbar {
-    margin: 1% 1% 0% 16%
+    margin: 1% 1% 0% 16%;
+    width: 180px;
+    height: 80px;
 }
 
 
@@ -73,8 +75,8 @@
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    width: 50%;
     height: 250pt;
+    width: 60pt;
    
     
 }
@@ -82,6 +84,18 @@
    text-align: flex-start;
    height:20pt;
    padding:20px;
+   display:block;
+   width: 400pt;
+
+}
+.whyd{
+    text-align: flex-start;
+    height:20pt;
+    padding:20px;
+    display:block;
+    margin-bottom:200px;
+    width: 400pt;
+
 }
 .img{
     height:13px;
@@ -141,14 +155,15 @@
 .tab{
     color:grey;
     display:block;
-    margin-right:600px;
+    font-size:small;
+ 
 }
 .tabs{
     color: 
     #0eaffe;
     display:block;
-    margin-right:600px;
-    text-wrap:nowrap
+    font-size:small;
+    text-wrap:nowrap;
 
 }
 .nav-bar-option{
@@ -169,14 +184,68 @@ padding :5px;
 
 }
 .bg{
-    background-color: blueviolet;
+    background-image: url(steam-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 .head{
-    margin-top: 200px;
     color:white;
-    text-align:center;
-    margin-right: 725px;
-    margin-bottom:-50px;
-    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    margin: 13% 35.5% -3% 0%;
+    font-family:"Motiva Sans", Sans-serif;;
+}
+.bring{
+    text-align: center;
+    height: 10pt;
+    
+}
+.blue{
+    text-align: start;
+    height:4px;
+    display:block;
+    width: auto;
+    margin-bottom: 3px;
+}
+.to_many{
+    color: #fff;
+    background-color:  #0eaffe;
+    height:40pt;
+    width: 220pt;
+    
+}
+
+.rem {
+    color: white;
+}
+
+.backgrounddiv {
+    width: 45%;
+    background-color: rgb(24, 26, 33);
+    border-radius: 5px;
+}
+
+.wholecontainer {
+    margin: 5% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.acc-name-sn-words {
+    margin: 0% 0% 0% 5%;
+    color: #0eaffe;
+    font-size: 10pt;
+}
+
+.sign-in-txtbox {
+    margin: -4.3% 0% 0% 5%;
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(50, 53, 60);
+    border:none;
 }
