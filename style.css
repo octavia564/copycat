@@ -215,12 +215,10 @@ padding :5px;
     
 }
 
-.rem {
-    color: white;
-}
+
 
 .backgrounddiv {
-    width: 45%;
+    width: 55%;
     background-color: rgb(24, 26, 33);
     border-radius: 5px;
 }
@@ -240,12 +238,85 @@ padding :5px;
     margin: 0% 0% 0% 5%;
     color: #0eaffe;
     font-size: 10pt;
+    padding-top: 3%;
 }
 
 .sign-in-txtbox {
     margin: -4.3% 0% 0% 5%;
-    width: 70%;
+    width: 60%;
     height: 5vh;
     background-color: rgb(50, 53, 60);
     border:none;
 }
+.pass{
+    margin: -4.3% 0% 0% 5%;
+    width: 60%;
+    height: 5vh;
+    background-color: rgb(50, 53, 60);
+    border:none;
+}
+.word{
+    margin: 0% 0% 0% 5%;
+    color: grey;
+    font-size: 10pt;
+}
+.rem{
+    margin-top:-6.3%;
+    margin-left: 4%;
+    margin-right: 6;
+    color:grey
+
+}
+
+.box{
+    justify-content: space-evenly;
+    margin-left: 3%;
+    padding-top: 0%;
+    padding: 2%;
+    
+    
+}
+.check{
+    height:3vh;
+    width: 3vh;
+    background-color: #32353c;
+    border:none;
+   
+   
+    
+}       
+.sign{
+    color: #fff;
+    background-color:  #0eaffe;
+    height:40pt;
+    width: 220pt;
+}
+.sn{
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-right: 25%;
+}
+.cant{
+    text-align: center;
+    text-decoration: underline;
+    color: grey; 
+    margin-right:25%;
+}
+.qr{
+    height: auto;
+    width: 15vw;
+    display: block;
+    float: top;
+    border-radius: 5%;
+ 
+    
+    
+
+}
+.qr_code{
+    margin: -40% 0% 13% 70%;
+   
+}
+
+
