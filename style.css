@@ -1,22 +1,4 @@
 
-.header{
-    display: block;
-    position: relative;
-    padding-top: 45px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    line-height: 16px;
-    float: left;
-    font-size: 14px;
-    color: #dcdedf;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
- 
-}
 
 .nav-bar-options:hover{
     color: white
@@ -25,7 +7,7 @@
 .banner{
     display: flex;
     background: #171d25;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 13%;
     top: 0%;
@@ -57,46 +39,6 @@
     height: 80px;
 }
 
-
-
-.bungus{
-    background-color: #32353c;
-    border:none;
-    outline: none;
-    height: 30px;
-    width: 60%;
-   color: white;
-   
-    
-}
-.booger{
-    margin-top: 8%;
-    background-color: #181a21;
-    justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
-    height: 250pt;
-    width: 60pt;
-   
-    
-}
-.why{
-   text-align: flex-start;
-   height:20pt;
-   padding:20px;
-   display:block;
-   width: 400pt;
-
-}
-.whyd{
-    text-align: flex-start;
-    height:20pt;
-    padding:20px;
-    display:block;
-    margin-bottom:200px;
-    width: 400pt;
-
-}
 .img{
     height:13px;
     width:15px;
@@ -127,7 +69,7 @@
     left: 140px;
 }
 .slass{
-    color:grey;
+    color:#a8a7a7;
     position: relative;
     font-size: 12px;
     left:120px;
@@ -140,7 +82,7 @@
 
 }
 .slasss{
-    color:grey;
+    color:#a8a7a7;
     position: relative;
     font-size: 12px;
     left:175px;
@@ -152,20 +94,7 @@
 .slasss:hover{
     color:white
 }
-.tab{
-    color:grey;
-    display:block;
-    font-size:small;
- 
-}
-.tabs{
-    color: 
-    #0eaffe;
-    display:block;
-    font-size:small;
-    text-wrap:nowrap;
 
-}
 .nav-bar-option{
 margin: 3% 0% 0% 0%;
 display: block;
@@ -184,10 +113,10 @@ padding :5px;
 
 }
 .bg{
-    background-image: url(steam-bg.jpg);
+    background-image: url(steams.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin: 0;
 
 }
 .head{
@@ -195,38 +124,19 @@ padding :5px;
     margin: 13% 35.5% -3% 0%;
     font-family:"Motiva Sans", Sans-serif;;
 }
-.bring{
-    text-align: center;
-    height: 10pt;
-    
-}
-.blue{
-    text-align: start;
-    height:4px;
-    display:block;
-    width: auto;
-    margin-bottom: 3px;
-}
-.to_many{
-    color: #fff;
-    background-color:  #0eaffe;
-    height:40pt;
-    width: 220pt;
-    
-}
-
 
 
 .backgrounddiv {
-    width: 55%;
+    width: 50%;
     background-color: rgb(24, 26, 33);
     border-radius: 5px;
 }
 
 .wholecontainer {
-    margin: 5% 0% 0% 0%;
+    margin: 4.7% 0% 0% 0%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20vh;
 }
 
 .sign-in-cont {
@@ -243,28 +153,31 @@ padding :5px;
 
 .sign-in-txtbox {
     margin: -4.3% 0% 0% 5%;
-    width: 60%;
+    width: 50%;
     height: 5vh;
     background-color: rgb(50, 53, 60);
     border:none;
+    border-radius: 2px;
 }
 .pass{
     margin: -4.3% 0% 0% 5%;
-    width: 60%;
+    width: 50%;
     height: 5vh;
     background-color: rgb(50, 53, 60);
     border:none;
+    border-radius: 2px;
 }
 .word{
     margin: 0% 0% 0% 5%;
-    color: grey;
+    color: #a8a7a7;
     font-size: 10pt;
 }
 .rem{
-    margin-top:-6.3%;
-    margin-left: 4%;
+    margin-top:-4.8%;
+    margin-left: 3.5%;
     margin-right: 6;
-    color:grey
+    color:#a8a7a7;
+    font-size: 10pt; 
 
 }
 
@@ -288,35 +201,137 @@ padding :5px;
 .sign{
     color: #fff;
     background-color:  #0eaffe;
-    height:40pt;
-    width: 220pt;
+    height:7vh;
+    width: 20vw;
+    border: none;
+    font-size: 13pt;
+    border-radius: 3px;
 }
 .sn{
     justify-items: center;
     text-align: center;
-    padding-bottom: 5%;
-    margin-right: 25%;
+    
+    margin-left: 10%;
+    width: fit-content;
 }
 .cant{
     text-align: center;
     text-decoration: underline;
-    color: grey; 
-    margin-right:25%;
+    color: #a8a7a7; 
+    margin-top: 20%;
+    font-size: 10.5pt;
+    
+    
 }
 .qr{
     height: auto;
     width: 15vw;
     display: block;
-    float: top;
     border-radius: 5%;
+    
  
     
     
 
 }
 .qr_code{
-    margin: -40% 0% 13% 70%;
+    position: absolute;
+    top: 46%;
+    right: 28%;
+
    
 }
 
 
+.snq{
+    color: #0eaffe;
+    font-size: 10pt;
+    text-align: end;
+    
+   
+}
+.work{
+    position: absolute;
+    top: 41%;
+    right: 33.8%
+
+}
+.use{
+    color: #a8a7a7; 
+    text-wrap: wrap;
+    text-align: end;
+    position: relative;
+    font-size: 11pt;
+    
+}
+.underlined{
+    text-decoration: underline;
+}
+.few{
+    position: absolute;
+    word-wrap: break-word;
+    top: 77%;
+    right: 28.5%;
+    bottom: 20%;
+   
+}
+.uses{
+    color: #a8a7a7; 
+    text-wrap: wrap;
+    text-align: end;
+    position: absolute;
+    top: 137%;
+    right:28%;
+   
+}
+.close{
+   
+    overflow: hidden;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #171d25;
+    height: 20%;
+    color: #a8a7a7; 
+    padding: 3%;
+    width: 100%;
+
+}
+.font{
+    color:white
+}
+.footer-text{
+    margin: 5%;
+    width: 100%;
+}
+
+.press{
+    position: absolute;
+    right: 60%;
+    bottom: 30%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #0eaffe;
+    border: none;
+    color: #fff;
+    font-size: 12pt;
+
+
+}
+.new{
+    color:white;
+    font-family:"Motiva Sans", Sans-serif;;
+    position: absolute;
+    right: 59%;
+    bottom:40%;
+}
