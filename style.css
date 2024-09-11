@@ -174,7 +174,7 @@ padding :5px;
 }
 .rem{
     margin-top:-4.8%;
-    margin-left: 3.5%;
+    margin-left: 4.5%;
     margin-right: 6;
     color:#a8a7a7;
     font-size: 10pt; 
@@ -305,14 +305,16 @@ padding :5px;
     color:white
 }
 .footer-text{
-    margin: 5%;
-    width: 100%;
+    margin: 0% 0% 3% 5%;
+    padding-bottom: 10%;
+    padding-top: 2%
+    
 }
 
 .press{
     position: absolute;
     right: 60%;
-    bottom: 30%;
+    bottom: 58%;
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -333,5 +335,5 @@ padding :5px;
     font-family:"Motiva Sans", Sans-serif;;
     position: absolute;
     right: 59%;
-    bottom:40%;
+    bottom:68%;
 }
